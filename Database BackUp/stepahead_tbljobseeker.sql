@@ -40,7 +40,6 @@ CREATE TABLE `tbljobseeker` (
 
 LOCK TABLES `tbljobseeker` WRITE;
 /*!40000 ALTER TABLE `tbljobseeker` DISABLE KEYS */;
-INSERT INTO `tbljobseeker` VALUES (NULL,NULL,3,NULL);
 /*!40000 ALTER TABLE `tbljobseeker` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,3 +1,5 @@
+USE stepahead;
+
 -- MySQL dump 10.13  Distrib 5.7.9, for Win64 (x86_64)
 --
 -- Host: localhost    Database: stepahead
@@ -39,7 +41,7 @@ CREATE TABLE `tbladdress` (
 
 LOCK TABLES `tbladdress` WRITE;
 /*!40000 ALTER TABLE `tbladdress` DISABLE KEYS */;
-INSERT INTO `tbladdress` VALUES (1,'address1','address2','Boston','NY','02120'),(2,NULL,NULL,NULL,NULL,NULL),(3,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `tbladdress` VALUES (1,'address1','address2','Boston','NY','02120');
 /*!40000 ALTER TABLE `tbladdress` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

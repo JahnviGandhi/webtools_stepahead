@@ -1,3 +1,5 @@
+USE stepahead;
+
 -- MySQL dump 10.13  Distrib 5.7.9, for Win64 (x86_64)
 --
 -- Host: localhost    Database: stepahead
@@ -44,7 +46,6 @@ CREATE TABLE `tblhrperson` (
 
 LOCK TABLES `tblhrperson` WRITE;
 /*!40000 ALTER TABLE `tblhrperson` DISABLE KEYS */;
-INSERT INTO `tblhrperson` VALUES (2,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `tblhrperson` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
