@@ -15,7 +15,7 @@ public class EmailHelper {
 			Email email = new SimpleEmail();
 			email.setHostName("smtp.gmail.com");
 			email.setSmtpPort(465);
-			email.setAuthenticator(new DefaultAuthenticator("jahnvi2610@gmail.com", "USA_itis@2015"));
+			email.setAuthenticator(new DefaultAuthenticator("email_address", "password"));
 			email.setSSLOnConnect(true);
 
 			email.setFrom("no-reply@stepahead.com");
